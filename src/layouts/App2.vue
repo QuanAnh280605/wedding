@@ -120,7 +120,7 @@
               <img src="/DJH08397.jpg" alt="Groom" class="w-full h-full object-cover" />
             </div>
             <h3 class="font-cursive text-4xl">Chú Rể</h3>
-            <h2 class="font-cursive text-6xl my-4">Quốc Vệt</h2>
+            <h2 class="font-cursive text-6xl my-4">Quốc Việt</h2>
           </div>
           <!-- Wedding info section -->
           <div class="text-center z-20 max-md:order-3">
