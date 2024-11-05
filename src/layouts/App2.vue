@@ -20,7 +20,7 @@
           <h1 class="xl:text-8xl text-6xl md:text-6xl xl:flex font-bold tracking-wider  roboto-medium">
             <div>Quốc Việt</div>
             <img src="/—Pngtree—white heart-shaped elements_6070867.png" alt="Heart"
-                 class="inline w-24 md:w-28 xl:w-40 mx-2" />
+                 class="inline w-24 md:w-28 xl:w-40 mx-2" loading="lazy" />
             <div> Thùy Trang</div>
           </h1>
           <p class="mt-10 md:text-xl text-xl xl:text-4xl roboto-medium">16 Tháng 11, 2024</p>
@@ -35,7 +35,7 @@
             <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
                     :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
               <SwiperSlide v-for="(image, index) in slider1" :key="index">
-                <img :src="image.src" alt="Groom's photo" class="w-full h-auto object-cover" />
+                <img :src="image.src" alt="Groom's photo" loading="lazy" class="w-full h-auto object-cover" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -117,7 +117,7 @@
           <!-- Groom section -->
           <div class="text-center">
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
-              <img src="/DJH08397.jpg" alt="Groom" class="w-full h-full object-cover" />
+              <img src="/DJH08397.jpg" loading="lazy" alt="Groom" class="w-full h-full object-cover" />
             </div>
             <h3 class="font-cursive text-4xl">Chú Rể</h3>
             <h2 class="font-cursive text-6xl my-4">Quốc Việt</h2>
@@ -141,7 +141,7 @@
           <!-- Bride section -->
           <div class="text-center">
             <div class="w-80 h-80 rounded-full overflow-hidden mb-4">
-              <img src="/DJH08289.jpg" alt="Bride" class="w-full h-full object-cover" />
+              <img src="/DJH08289.jpg" loading="lazy" alt="Bride" class="w-full h-full object-cover" />
             </div>
             <h3 class="font-cursive text-4xl">Cô Dâu</h3>
             <h2 class="font-cursive text-6xl my-4">Thùy Trang</h2>
@@ -161,7 +161,7 @@
           <Swiper :modules="[Autoplay, Pagination]" :slides-per-view="1" :loop="true"
                   :autoplay="{ delay: 3000, disableOnInteraction: false }" :pagination="false" class="mySwiper rounded">
             <SwiperSlide v-for="(image, index) in slider2" :key="index">
-              <img :src="image.src" alt="Bride's photo" class="w-full h-auto object-cover" />
+              <img :src="image.src" alt="Bride's photo" loading="lazy" class="w-full h-auto object-cover" />
             </SwiperSlide>
           </Swiper>
         </div>
@@ -178,7 +178,7 @@
                 class="bg-red-500 playwrite-gb-s-uniquifier xl:mb-10 max-xl:text-lg text-white px-4 py-2 rounded-full mb-4 font-semibold">
               MỪNG CƯỚI ĐẾN CÔ DÂU
             </div>
-            <img src="/qr1.jpg" alt="QR code cô dâu" class="w-36 md:w-64 mb-4" />
+            <img src="/qr1.jpg" loading="lazy" alt="QR code cô dâu" class="w-36 md:w-64 mb-4" />
           </div>
 
           <!-- Mừng cưới đến chú rể -->
@@ -188,7 +188,7 @@
                 class="bg-pink-400 playwrite-gb-s-uniquifier xl:mb-10  max-xl:text-lg text-white px-4 py-2 rounded-full mb-4 font-semibold">
               MỪNG CƯỚI ĐẾN CHÚ RỂ
             </div>
-            <img src="/qr2.jpg" alt="QR code chú rể" class="w-36 md:w-64 mb-4" />
+            <img src="/qr2.jpg" loading="lazy" alt="QR code chú rể" class="w-36 md:w-64 mb-4" />
           </div>
         </div>
       </section>
